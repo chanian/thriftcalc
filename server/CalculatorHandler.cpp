@@ -1,4 +1,5 @@
 #include "Calculator.h"
+
 #include <stdint.h>
 #include <cmath>
 #include <protocol/TBinaryProtocol.h>
