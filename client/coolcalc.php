@@ -7,14 +7,14 @@
  * a calculator server application whose actions
  * are facilitated by thrift.  Both the client
  * and server negotiate on the common interface
- * define by calculator.thrift
+ * defined by calculator.thrift
  *
  *@author Ian Chan
  *@date May 10, 2010
  * ----------------------------------------------
  */
 
-// Setup the path to the Thrift install folder
+// Setup the path to the thrift library folder
 $GLOBALS['THRIFT_ROOT'] = 'thrift';	
 
 // Load up all the thrift stuff
