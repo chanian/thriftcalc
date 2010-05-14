@@ -4,7 +4,7 @@ CFLAGS=-g -I./ -I/usr/local/include/thrift/ -c
 all: thrift calculator_server
 
 thrift:
-	thrift -gen cpp ./calculator.thrift
+	thrift -gen cpp ../calculator.thrift
 	cp gen-cpp/*.cpp .
 	cp gen-cpp/*.h .
 
