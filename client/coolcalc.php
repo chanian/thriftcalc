@@ -42,7 +42,7 @@ try {
 	// First, lets do something simple	
 	// Create a simple arithmatic operation (99 / 3)
 	$operation = new ArithmeticOperation();
-	$operation->op = BinaryOperation::DIVISON;
+	$operation->op = BinaryOperation::DIVISION;
 	$operation->lh_term = 99;
 	$operation->rh_term = 3;
 	
