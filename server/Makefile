@@ -1,5 +1,5 @@
 CC=g++ -O2 -lthrift
-CFLAGS=-g -I./ -I/usr/local/include/thrift/ -c
+CFLAGS=-g -I./ -I/usr/local/include/thrift/ -c -DHAVE_NETINET_IN_H -DHAVE_INTTYPES_H
 
 all: thrift calculator_server
 

@@ -76,19 +76,19 @@ public:
   {
     switch (op.op)
       {
-      case ADDITION:
+      case BinaryOperation::ADDITION:
         return __add (op.lh_term, op.rh_term);
  
-      case SUBTRACTION:
+      case BinaryOperation::SUBTRACTION:
         return __sub (op.lh_term, op.rh_term);
  
-      case MULTIPLICATION:
+      case BinaryOperation::MULTIPLICATION:
         return __mult (op.lh_term, op.rh_term);
  
-      case DIVISION:
+      case BinaryOperation::DIVISION:
         return __div (op.lh_term, op.rh_term);
  
-      case MODULUS:
+      case BinaryOperation::MODULUS:
         return __mod (op.lh_term, op.rh_term);
  
       default:
